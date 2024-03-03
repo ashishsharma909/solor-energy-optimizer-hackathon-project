@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Energy Optimizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div> <header>
+    <h1>Solar Energy Optimizer for New India</h1>
+  </header>
+  <section id="input-section">
+    <h2>Enter Your Information</h2>
+    <form id="input-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="area">Area:</label>
+      <input type="text" id="area" name="area" required>
+      <label for="cost-electricity">Cost of Electricity (Rs/kWh):</label>
+      <input type="number" id="cost-electricity" name="cost-electricity" required>
+      <label for="monthly-energy">Monthly Energy Consumption (kWh):</label>
+      <input type="number" id="monthly-energy" name="monthly-energy" required>
+      <label for="purpose">Purpose:</label>
+      <select id="purpose" name="purpose" required>
+        <option value="home">Home</option>
+        <option value="business">Business</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    
+  </section>
+</div>
+<footer>
+    <p>2024 Solar Energy Optimizer developed by BIT WIZARDS</p>
+  </footer>
+<!-- Plans for Buying Solar Panels -->
+<section id="solar-plans">
+  <h2 class="section-title">Various Plans for Buying Solar Panels</h2>
+  <ul>
+    <li>Basic Plan: 10 solar panels, Rs 50,000</li>
+    <li>Standard Plan: 20 solar panels, Rs 90,000</li>
+    <li>Premium Plan: 30 solar panels, Rs 130,000</li>
+  </ul>
+</section>
+
+<!-- Benefits of Solar Panels -->
+<section id="benefits">
+  <div class="benefits-box">
+    <h2 class="section-title">Benefits of Solar Panels</h2>
+    <ul>
+      <li>Reduce electricity bills</li>
+      <li>Low maintenance costs</li>
+      <li>Environmentally friendly</li>
+      <li>Energy independence</li>
+      <li>Government incentives and rebates</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Script to calculate solar panel data -->
+<script src="script.js"></script>
+</body>
+</html>
